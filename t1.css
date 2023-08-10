@@ -1,0 +1,606 @@
+.navbar{
+    background-color: rgb(219, 160, 51);
+}
+.cardp1{
+    margin-top: 50px; 
+    margin-left: 80px; 
+    background-color: white; 
+    box-shadow: 1px 2px 4px black; 
+    width: 240px;
+    height: 350px;
+    text-align: center; 
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px; 
+    border-bottom-right-radius: 10px;
+    float: left;
+}
+.cardp1:hover{
+    box-shadow: 4px 6px 8px black;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.cardp1 .h{
+    background-color: orange;
+    color: white;
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
+}
+.cardp1 h2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.cardp1 img{
+    padding-top: 10px;
+}
+.cardp1 p{
+    padding-top: 10px; 
+}
+.cardp1 .p{
+    padding-top: 20px; 
+}
+.cardp1 a{
+    color: white; 
+    padding: 5px; 
+    background-color: orange; 
+    font-size: 20px; 
+    text-decoration: none; 
+    border-top-left-radius: 8px; 
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px; 
+    border-bottom-right-radius: 8px;
+}
+.cardp2{
+    margin-top: 50px; 
+    margin-left: 50px; 
+    background-color: white; 
+    box-shadow: 1px 2px 4px black; 
+    width: 240px;
+    height: 350px;
+    text-align: center; 
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px; 
+    border-bottom-right-radius: 10px;
+    float: left;
+}
+.cardp2:hover{
+    box-shadow: 4px 6px 8px black;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.cardp2 .h{
+    background-color: orange;
+    color: white;
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
+}
+.cardp2 h2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.cardp2 img{
+    padding-top: 10px;
+}
+.cardp2 p{
+    padding-top: 10px; 
+}
+.cardp2 .p{
+    padding-top: 20px; 
+}
+.cardp2 a{
+    color: white; 
+    padding: 5px; 
+    background-color: orange; 
+    font-size: 20px; 
+    text-decoration: none; 
+    border-top-left-radius: 8px; 
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px; 
+    border-bottom-right-radius: 8px;
+}
+.cardp3{
+    margin-top: 50px; 
+    margin-left: 50px; 
+    background-color: white; 
+    box-shadow: 1px 2px 4px black; 
+    width: 240px;
+    height: 350px;
+    text-align: center; 
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px; 
+    border-bottom-right-radius: 10px;
+    float: left;
+}
+.cardp3:hover{
+    box-shadow: 4px 6px 8px black;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.cardp3 .h{
+    background-color: orange;
+    color: white;
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
+}
+.cardp3 h2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.cardp3 img{
+    padding-top: 10px;
+}
+.cardp3 p{
+    padding-top: 10px; 
+}
+.cardp3 .p{
+    padding-top: 20px; 
+}
+.cardp3 a{
+    color: white; 
+    padding: 5px; 
+    background-color: orange; 
+    font-size: 20px; 
+    text-decoration: none; 
+    border-top-left-radius: 8px; 
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px; 
+    border-bottom-right-radius: 8px;
+}
+.cardp4{
+    margin-top: 50px; 
+    margin-left: 50px; 
+    background-color: white; 
+    box-shadow: 1px 2px 4px black; 
+    width: 240px;
+    height: 350px;
+    text-align: center; 
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px; 
+    border-bottom-right-radius: 10px;
+    float: left;
+}
+.cardp4:hover{
+    box-shadow: 4px 6px 8px black;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.cardp4 .h{
+    background-color: orange;
+    color: white;
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
+}
+.cardp4 h2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.cardp4 img{
+    padding-top: 10px;
+}
+.cardp4 p{
+    padding-top: 10px; 
+}
+.cardp4 .p{
+    padding-top: 20px; 
+}
+.cardp4 a{
+    color: white; 
+    padding: 5px; 
+    background-color: orange; 
+    font-size: 20px; 
+    text-decoration: none; 
+    border-top-left-radius: 8px; 
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px; 
+    border-bottom-right-radius: 8px;
+}
+.cardp5{
+    margin-top: 50px; 
+    margin-left: 80px; 
+    background-color: white; 
+    box-shadow: 1px 2px 4px black; 
+    width: 240px;
+    height: 350px;
+    text-align: center; 
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px; 
+    border-bottom-right-radius: 10px;
+    float: left;
+}
+.cardp5:hover{
+    box-shadow: 4px 6px 8px black;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.cardp5 .h{
+    background-color: orange;
+    color: white;
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
+}
+.cardp5 h2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.cardp5 img{
+    padding-top: 10px;
+}
+.cardp5 p{
+    padding-top: 10px; 
+}
+.cardp5 .p{
+    padding-top: 20px; 
+}
+.cardp5 a{
+    color: white; 
+    padding: 5px; 
+    background-color: orange; 
+    font-size: 20px; 
+    text-decoration: none; 
+    border-top-left-radius: 8px; 
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px; 
+    border-bottom-right-radius: 8px;
+}
+.cardp6{
+    margin-top: 50px; 
+    margin-left: 50px; 
+    background-color: white; 
+    box-shadow: 1px 2px 4px black; 
+    width: 240px;
+    height: 350px;
+    text-align: center; 
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px; 
+    border-bottom-right-radius: 10px;
+    float: left;
+}
+.cardp6:hover{
+    box-shadow: 4px 6px 8px black;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.cardp6 .h{
+    background-color: orange;
+    color: white;
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
+}
+.cardp6 h2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.cardp6 img{
+    padding-top: 10px;
+}
+.cardp6 p{
+    padding-top: 10px; 
+}
+.cardp6 .p{
+    padding-top: 20px; 
+}
+.cardp6 a{
+    color: white; 
+    padding: 5px; 
+    background-color: orange; 
+    font-size: 20px; 
+    text-decoration: none; 
+    border-top-left-radius: 8px; 
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px; 
+    border-bottom-right-radius: 8px;
+}
+.cardp7{
+    margin-top: 50px; 
+    margin-left: 50px; 
+    background-color: white; 
+    box-shadow: 1px 2px 4px black; 
+    width: 240px;
+    height: 350px;
+    text-align: center; 
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px; 
+    border-bottom-right-radius: 10px;
+    float: left;
+}
+.cardp7:hover{
+    box-shadow: 4px 6px 8px black;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.cardp7 .h{
+    background-color: orange;
+    color: white;
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
+}
+.cardp7 h2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.cardp7 img{
+    padding-top: 10px;
+}
+.cardp7 p{
+    padding-top: 10px; 
+}
+.cardp7 .p{
+    padding-top: 20px; 
+}
+.cardp7 a{
+    color: white; 
+    padding: 5px; 
+    background-color: orange; 
+    font-size: 20px; 
+    text-decoration: none; 
+    border-top-left-radius: 8px; 
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px; 
+    border-bottom-right-radius: 8px;
+}
+.cardp8{
+    margin-top: 50px; 
+    margin-left: 50px; 
+    background-color: white; 
+    box-shadow: 1px 2px 4px black; 
+    width: 240px;
+    height: 350px;
+    text-align: center; 
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px; 
+    border-bottom-right-radius: 10px;
+    float: left;
+}
+.cardp8:hover{
+    box-shadow: 4px 6px 8px black;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.cardp8 .h{
+    background-color: orange;
+    color: white;
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
+}
+.cardp8 h2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.cardp8 img{
+    padding-top: 10px;
+}
+.cardp8 p{
+    padding-top: 10px; 
+}
+.cardp8 .p{
+    padding-top: 20px; 
+}
+.cardp8 a{
+    color: white; 
+    padding: 5px; 
+    background-color: orange; 
+    font-size: 20px; 
+    text-decoration: none; 
+    border-top-left-radius: 8px; 
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px; 
+    border-bottom-right-radius: 8px;
+}
+.cardp9{
+    margin-top: 50px; 
+    margin-left: 80px; 
+    background-color: white; 
+    box-shadow: 1px 2px 4px black; 
+    width: 240px;
+    height: 350px;
+    text-align: center; 
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px; 
+    border-bottom-right-radius: 10px;
+    float: left;
+}
+.cardp9:hover{
+    box-shadow: 4px 6px 8px black;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.cardp9 .h{
+    background-color: orange;
+    color: white;
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
+}
+.cardp9 h2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.cardp9 img{
+    padding-top: 10px;
+}
+.cardp9 p{
+    padding-top: 10px; 
+}
+.cardp9 .p{
+    padding-top: 20px; 
+}
+.cardp9 a{
+    color: white; 
+    padding: 5px; 
+    background-color: orange; 
+    font-size: 20px; 
+    text-decoration: none; 
+    border-top-left-radius: 8px; 
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px; 
+    border-bottom-right-radius: 8px;
+}
+.cardp10{
+    margin-top: 50px; 
+    margin-left: 50px; 
+    background-color: white; 
+    box-shadow: 1px 2px 4px black; 
+    width: 240px;
+    height: 350px;
+    text-align: center; 
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px; 
+    border-bottom-right-radius: 10px;
+    float: left;
+}
+.cardp10:hover{
+    box-shadow: 4px 6px 8px black;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.cardp10 .h{
+    background-color: orange;
+    color: white;
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
+}
+.cardp10 h2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.cardp10 img{
+    padding-top: 10px;
+}
+.cardp10 p{
+    padding-top: 10px; 
+}
+.cardp10 .p{
+    padding-top: 20px; 
+}
+.cardp10 a{
+    color: white; 
+    padding: 5px; 
+    background-color: orange; 
+    font-size: 20px; 
+    text-decoration: none; 
+    border-top-left-radius: 8px; 
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px; 
+    border-bottom-right-radius: 8px;
+}
+.cardp11{
+    margin-top: 50px; 
+    margin-left: 50px; 
+    background-color: white; 
+    box-shadow: 1px 2px 4px black; 
+    width: 240px;
+    height: 350px;
+    text-align: center; 
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px; 
+    border-bottom-right-radius: 10px;
+    float: left;
+}
+.cardp11:hover{
+    box-shadow: 4px 6px 8px black;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.cardp11 .h{
+    background-color: orange;
+    color: white;
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
+}
+.cardp11 h2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.cardp11 img{
+    padding-top: 10px;
+}
+.cardp11 p{
+    padding-top: 10px; 
+}
+.cardp11 .p{
+    padding-top: 20px; 
+}
+.cardp11 a{
+    color: white; 
+    padding: 5px; 
+    background-color: orange; 
+    font-size: 20px; 
+    text-decoration: none; 
+    border-top-left-radius: 8px; 
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px; 
+    border-bottom-right-radius: 8px;
+}
+.cardp12{
+    margin-top: 50px; 
+    margin-left: 50px; 
+    background-color: white; 
+    box-shadow: 1px 2px 4px black; 
+    width: 240px;
+    height: 350px;
+    text-align: center; 
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px; 
+    border-bottom-right-radius: 10px;
+    float: left;
+}
+.cardp12:hover{
+    box-shadow: 4px 6px 8px black;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.cardp12 .h{
+    background-color: orange;
+    color: white;
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
+}
+.cardp12 h2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.cardp12 img{
+    padding-top: 10px;
+}
+.cardp12 p{
+    padding-top: 10px; 
+}
+.cardp12 .p{
+    padding-top: 20px; 
+}
+.cardp12 a{
+    color: white; 
+    padding: 5px; 
+    background-color: orange; 
+    font-size: 20px; 
+    text-decoration: none; 
+    border-top-left-radius: 8px; 
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px; 
+    border-bottom-right-radius: 8px;
+}
+.footer{
+    margin-top: 1300px;
+}

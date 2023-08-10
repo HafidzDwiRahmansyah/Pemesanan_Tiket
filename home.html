@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIBURAN YUK</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css'>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous"> -->
+    <link rel="icon" href="lg.png">
+</head>
+<body>
+    <div id="loading"></div>
+    <script>
+        var loading = document.getElementById('loading');
+
+        window.addEventListener("load", function(){
+            loading.style.display = "none";
+        })
+
+        var posY = 0;
+        var jarak = 10;
+
+        function smoothScroll(id){
+            var target = document.getElementById(id).offsetTop;
+
+            scrollAnimate = setTimeout(function(){
+                smoothScroll(id);
+            }, 5)
+
+            posY = posY + jarak;
+
+            if(posY >= target){
+                clearTimeout(scrollAnimate);
+
+                posY = 0;
+            }else{
+                window.scroll(0, posY)
+            }
+            return false;
+        }
+    </script>
+    <div class="navbar">
+        <img src="logo.png" alt="logo" width="100px" height="100px">
+        <h2>LIBURAN YUK</h2>
+        <div class="menu">
+            <a href="home.html"><i class="fi fi-ss-home"></i><b style="padding-left: 5px;">Rumah</b></a>
+            <a href="#container2" onclick=" return smoothScroll('container2')"><i class="fi fi-ss-info"></i><b style="padding-left: 3px;">Tentang</b></a>
+            <a href="#container3" onclick=" return smoothScroll('container3')"><i class="fi fi-ss-ticket"></i><b style="padding-left: 3px;">Tiket</b></a>
+            <a href="kontak.html"><i class="fi fi-ss-call-incoming"></i><b style="padding-left: 3px;">Kontak</b></a>
+        </div>
+        <!-- <nav class="navbar bg-light fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Offcanvas navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <form class="d-flex mt-3" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </nav> -->
+        <!-- <div class="menu2">
+            <a href="login.html"><i class="fi fi-ss-key"></i><i style="padding-left: 3px;">Masuk Akun</i></a>
+            <a href="buat.html"><i class="fi fi-ss-user-add"></i><i style="padding-left: 3px;">Buat Akun</i></a>
+        </div> -->
+    </div>
+    <div class="container">
+        <div class="text">
+            <h1>SELAMAT DATANG DI <br> LIBURAN YUK</h1>
+            <h2>LIBURAN YUK ADALAH SEBUAH TEMPAT UNTUK MEMESAN SEBUAH TIKET <br> TRANSPORTASI, DAN DESTINASI</h2>
+            <div class="cari">
+                <a href="tiket_transportasi.html"><i class="fi fi-ss-plane-alt"></i><b  style="padding-left: 8px;">Tiket Transportasi</b></a>
+                <a href="tiket_wisata.html"><i class="fi fi-ss-camping"></i><b  style="padding-left: 8px;">Tiket Destinasi</b></a>
+            </div>
+        </div>
+    </div>
+    <div class="container2" id="container2">
+        <h1>Tentang Kami</h1>
+        <div class="t1">
+            <h3>Berdirinya website Liburan Yuk <br> 
+                ini menjawab para traveler yang <br>
+                kebingungan dalam mencari <br> 
+                transportasi untuk pergi liburan <br> 
+                luar kota, atau luar negeri. Dan <br> 
+                disini kita bisa memesan dari jauh hari </h3>
+            <div class="gambar1">
+                <img src="airplane.png" alt="pesawat" width="200px" height="200px">
+            </div>
+        </div>
+        <div class="t2">
+            <h3>Berdirinya website Liburan Yuk <br> 
+                ini menjawab para traveler yang <br>
+                kebingungan dalam mencari <br> 
+                Hotel atau penginapan di tempat <br>
+                yang mungkin minim hotel seperti <br>
+                di desa atau pun di pegunungan <br></h3>
+                <div class="gambar2">
+                    <img src="hotel.png" alt="hotel" width="200px" height="200px">
+                </div>    
+        </div>
+        <div class="t3">
+            <h3>Berdirinya website Liburan Yuk <br> 
+                ini menjawab para traveler yang <br>
+                kebingungan dalam mencari <br> 
+                tempat makan seperti lastaurant <br>
+                ataupun makanan khas di suatu <br>
+                tempat seperti desa atau pegunungan</h3>
+            <div class="gambar3">
+                <img src="eating.png" alt="lastaurant" width="200px" height="200px">
+            </div>
+        </div>
+    </div>
+    <div class="container3" id="container3">
+        <h2>Cari Tiket Disini</h2>
+        <div class="card">
+            <h2>Tiket Wisata</h2>
+            <img src="pure.jpg" alt="wisata_bali" width="180px" height="130px">
+            <p>Wisata pura di pulau dewata<br> 
+                adalah sebuh wisata yang <br> 
+                selalu menjadi yang paling <br>
+                utama bagi wisatawan <br> 
+                </p>
+            <div class="p">
+                <a href="tiket_wisata.html">Lihat lainnya</a>
+            </div>
+        </div>
+        <div class="card1">
+            <h2>Tiket Transportasi</h2>
+            <img src="pa.jpg" alt="wisata_bali" width="180px" height="130px">
+            <p>Lorem, ipsum dolor sit amet <br> 
+                consectetur adipisicing elit. <br> 
+                Pariatur, unde non dolore <br>
+                quibusdam natus rem, officia <br> 
+                </p>
+                <div class="p">
+                    <a href="tiket_transportasi.html">Lihat lainnya</a>
+                </div>
+        </div>
+        <div class="card2">
+            <h2>Tiket Penginapan</h2>
+            <img src="pn.jpg" alt="wisata_bali" width="180px" height="130px">
+            <p>Lorem, ipsum dolor sit amet <br> 
+                consectetur adipisicing elit. <br> 
+                Pariatur, unde non dolore <br>
+                quibusdam natus rem, officia <br> 
+                </p>
+            <div class="p">
+                <a href="tiket_penginapan.html">Lihat lainnya</a>
+            </div>
+        </div>
+    </div>
+    <div class="footer" id="footer">
+        <div class="f1">
+            <img src="logo.png" alt="logo" width="100px" height="100px">
+        </div>
+        <div class="f">
+            <form action="komen">
+                <label for="komen">Tulis Komentar</label><br>
+                <textarea name="komen" id="komen" cols="50" rows="3" placeholder="tulis komentar disini...!"></textarea>
+                <div class="a" style="margin-top: -30px; margin-left: 400px;">
+                    <a type="submit" onclick="alert('komen anda sudah dikirim')"><i class="fi fi-ss-paper-plane"></i></a>
+                </div>
+            </form>
+            </div>
+        <div class="f2">
+            <h2>Kerjasama Kami :</h2>
+            <div class="b1">
+                <b>Bidang Perbankan</b>
+            <ul>
+                <li>Bank Mandiri</li>
+                <li>Bank BCA</li>
+                <li>Bank BRI</li>
+                <li>Bank Permata</li>
+                <li>Bank BNI</li>
+                <li>Bank OCBC NISP</li>
+            </ul>
+            </div>
+            <div class="b2">
+                <b>
+                Bidang Wisata</b>
+            <ul>
+                <li>Pulau WEH</li>
+                <li>Danau Toba</li>
+                <li>Belitung</li>
+                <li>Raja Ampat</li>
+                <li>Bunaken</li>
+                <li>Gunung Bromo</li>
+            </ul>
+            <ul style="padding-left: 170px; margin-top: -128px;">
+                <li>Pantai Sanur</li>
+                <li>Wae Rebo</li>
+                <li>Pulau Komodo</li>
+                <li>Wakatobi</li>
+                <li>Banda Neira</li>
+                <li>Mentawai</li>
+            </ul>
+        </div>
+        <div class="b3">
+            <b>Bidang Transportasi</b>
+        <ul>
+            <li>PT Primajasa</li>
+            <li>PT Garuda Indonesia</li>
+            <li>PT Gunung Harta</li>
+            <li>PT Blue Bird</li>
+            <li>PT Kereta Api Indonesia</li>
+            <li>PT Samudera Perkapalan I</li>
+        </ul>
+        </div>
+        <div class="b4">
+            <b>Bidang Hotel</b>
+        <ul>
+            <li>Hotel Raffles</li>
+            <li>Hotel Melati</li>
+            <li>Hotel Fairmont</li>
+            <li>The Margo Hotel</li>
+            <li>Hotel Neo Malioboro</li>
+            <li>Emersia Malioboro Hotel</li>
+        </ul>
+        </div>
+    </div>
+    <div class="copyright" style="width: 100%; height: 35px; background-color: orange; margin-top: 225px; padding-top: 25px; text-align: center;">
+        <p> &copy; <b>Hafidz Dwi Rahmansyah</b></p>
+    </div>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script> -->
+</body>
+</html>
+
+<!--Total baris website pertanggal 21/08/2022 jam 05.50 = 5345 -->

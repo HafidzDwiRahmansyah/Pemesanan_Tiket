@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liburan Yuk</title>
+    <link rel="icon" href="lg.png">
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .navbar{
+            width: 100%;
+            height: 50px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: rgb(100, 194, 7);
+            color: white;
+        }
+        .navbar .mn{
+            margin-left: 1150px;
+            margin-top: -24px;
+        }
+        .navbar .mn a{
+            background-color: green;
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+        }
+        .navbar .mn a:hover{
+            opacity: 70%;
+        }
+        h2{
+            margin-left: 20px;
+            padding-top: 10px;
+        }
+        .bg{
+            width: 100%;
+            height: 580px;
+        }
+        .bg img{
+            opacity: 15%;
+        }
+        .poster{
+            width: 500px;
+            height: 400px;
+            margin-top: 45px;
+            margin-left: 50px;
+            opacity: none;
+        }
+        .pesan{
+            margin-top: -450px;
+            margin-left: 800px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .cardp{
+            width: 500px;
+            height: 480px;
+            border: 2px solid green;
+            margin-left: -150px;
+            margin-top: 50px;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+            border-bottom-right-radius: 15px;
+            border-bottom-left-radius: 15px;
+        }
+        .cardp .header{
+            height: 50px;
+            text-align: center;
+            background-color: green;
+            color: white;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        .cardp .header h2{
+            margin-bottom: 10px;
+        }
+        .cardp .body{
+            margin-top: 20px;
+            margin-left: 50px;
+        }
+        .cardp input{
+            width: 350px;
+            height: 28px;
+            padding-left: 10px;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border-bottom: 2px solid grey;
+            background: none;
+            border-top: none;
+            border-right: none;
+            border-left: none;
+        }
+        .cardp select{
+            width: 175px;
+            height: 28px;
+            padding-left: 10px;
+            font-size: 15px;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+        }
+        .cardp label{
+            font-size: 15px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: orange;
+        }
+        .cardp .foter{
+            margin-top: 30px;
+            text-align: center;
+        }
+        .cardp .foter a{
+            background-color: green;
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            padding-left: 80px;
+            padding-right: 80px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+        }
+        .cardp .foter a:hover{
+            opacity: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div id="loading"></div>
+    <script>
+        var loading = document.getElementById('loading');
+
+        window.addEventListener("load", function(){
+            loading.style.display = "none";
+        })
+    </script>
+    <div class="navbar">
+        <h2>PO. Tiket Gunung Harta</h2>
+        <div class="mn">
+            <a href="tiket_transportasi.html">Kembali</a>
+        </div>
+    </div>
+    <div class="poster">
+        <img src="pog.jpg" alt="poster_GunungHarta" width="500px"
+        height="400px">
+    </div>
+    <div class="pesan">
+        <div class="cardp">
+            <div class="header">
+                <h2>Pesan Tiket Bis</h2>
+            </div>
+            <div class="body">
+                <form action="buat_akun">
+                    <label for="nama"><b>Nama Pemesan</b></label><br><br>
+                    <input type="text" name="email" id="email" placeholder="nama">
+                        <br><br>
+                    <label for="password"><b>Tanggal Dan Waktu</b></label><br><br>
+                    <input type="datetime-local" name="password" id="password" placeholder="password">
+                        <br><br>
+                    <label for="tujuan">Asal</label><br><br>
+                    <select name="example" style="float: left;">
+                        <option value="A">Banten</option>
+                        <option value="B">Jakarta</option>
+                        <option value="-">Bogor</option>
+                        <option value="-">Bandung</option>
+                        <option value="-">Purwakarta</option>
+                        <option value="-">Temanggung</option>
+                        <option value="-">Magelang</option>
+                        <option value="-">Yogyakarta</option>
+                        <option value="-">Klaten</option>
+                        <option value="A">Muntilan</option>
+                        <option value="B">Solo</option>
+                        <option value="-">Salatiga</option>
+                        <option value="-">Semarang</option>
+                        <option value="-">Nganjuk</option>
+                        <option value="-">Kediri</option>
+                        <option value="-">Tuban</option>
+                        <option value="-">Surabaya</option>
+                        <option value="-">Malang</option>
+                      </select>
+                      <div class="tujuan" style="margin-top: -40px; margin-left: 200px;">
+                            <label for="tujuan">Tujuan</label><br><br>
+                                <select name="example">
+                                    <option value="A">Banten</option>
+                                    <option value="B">Jakarta</option>
+                                    <option value="-">Bogor</option>
+                                    <option value="-">Bandung</option>
+                                    <option value="-">Purwakarta</option>
+                                    <option value="-">Temanggung</option>
+                                    <option value="-">Magelang</option>
+                                    <option value="-">Yogyakarta</option>
+                                    <option value="-">Klaten</option>
+                                    <option value="A">Muntilan</option>
+                                    <option value="B">Solo</option>
+                                    <option value="-">Salatiga</option>
+                                    <option value="-">Semarang</option>
+                                    <option value="-">Nganjuk</option>
+                                    <option value="-">Kediri</option>
+                                    <option value="-">Tuban</option>
+                                    <option value="-">Surabaya</option>
+                                    <option value="-">Malang</option>
+                                </select><br><br>
+                    </div>
+                    <div class="jt">
+                            <label for="jumlah"><b>Jumlah Tiket</b></label><br><br>
+                            <select name="example">
+                                <option value="A">1 orang</option>
+                                <option value="B">2 orang</option>
+                                <option value="-">3 orang</option>
+                                <option value="-">4 orang</option>
+                            </select>
+                    </div>
+            </div>
+            <div class="foter">
+                    <a type="submit" href="home.html" onclick="alert('Pembelian tiket berhasil')"><i class="fi fi-ss-check"></i><b style="padding-left: 8px;">Beli Tiket</b></a>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

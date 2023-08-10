@@ -1,0 +1,337 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#loading{
+    background: rgb(255, 200, 0) url(lod.gif) no-repeat center center;
+    background-size: 15%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+}
+.navbar img{
+    margin-left: 20px;
+    margin-top: -10px;
+}
+.navbar h2{
+    margin-left: 115px;
+    margin-top: -70px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbar .menu{
+    margin-left: 455px;
+    margin-top: -20px;
+}
+.navbar .menu a{
+    font-size: 15px;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 20px;
+    color: white;
+}
+.navbar .menu a:hover{
+    color: rgba(0, 0, 0, 0.484);
+    transition: 0.2s;
+}
+.navbar .menu2{
+    margin-left: 930px;
+    margin-top: -20px;
+}
+.navbar .menu2 a{
+    font-size: 15px;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 20px;
+    color: white;
+    background-color: rgb(255, 179, 37);
+    padding: 8px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.navbar .menu2 a:hover{
+    opacity: 80%;
+}
+.container{
+    margin-top: -80px;
+    background-image: url(gu.jpg);
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+}
+.container .text{
+    background-color: rgba(0, 0, 0, 0.463);
+    height: 480px;
+}
+.container .text h1{
+    padding-top: 150px;
+    font-size: 50px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container .text h2{
+    padding-top: 20px;
+    font-size: 15px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container .text .cari{
+    margin-top: 55px;
+}
+.container .text .cari a{
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 25px;
+    color: white;
+    background-color: rgb(255, 179, 37);
+    padding: 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.container2{
+    height: 900px;
+    width: 100%;
+    text-align: center;
+    background-color: orange;
+    border-top: 8px solid white;
+    color: white;
+}
+.container2 h1{
+    padding-top: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container2 .t1{
+    margin-top: 100px;
+    margin-left:100px;
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container2 .t1 .gambar1{
+    margin-left: 700px;
+    margin-top: -180px;
+}
+.container2 .t2{
+    margin-top: 70px;
+    margin-left: 200px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 650px;
+}
+.container2 .t2 .gambar2{
+    margin-top: -150px;
+    margin-left: -1200px;
+}
+.container2 .t3{
+    margin-left: 100px;
+    padding-top: 80px;
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container2 .t3 .gambar3{
+    margin-top: -170px;
+    padding-left: 700px;
+}
+.container3{
+    width: 100%;
+    height: 500px;
+    border-top: 5px solid black;
+}
+.container3 h2{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.card{
+    margin-top: 50px; 
+    margin-left: 140px; 
+    background-color: white; 
+    box-shadow: 1px 2px 4px black; 
+    width: 240px;
+    height: 350px;
+    text-align: center; 
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px; 
+    border-bottom-right-radius: 10px;
+    float: left;
+}
+.card:hover{
+    box-shadow: 4px 6px 8px black;
+    transition: 0.4s;
+    margin-top: -2px;
+    cursor: pointer;
+}
+.card h2{
+    padding-top: 20px;
+    font-size: 20px;
+    color: orange;
+}
+.card a{
+    color: white; padding: 5px; background-color: orange; font-size: 20px; text-decoration: none; border-top-left-radius: 8px; border-top-right-radius: 8px;
+        border-bottom-left-radius: 8px; border-bottom-right-radius: 8px;
+}
+.card1{
+    margin-top: 50px; 
+    margin-left: 140px; 
+    background-color: white; 
+    box-shadow: 1px 2px 4px black; 
+    width: 240px;
+    height: 350px;
+    text-align: center; 
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px; 
+    border-bottom-right-radius: 10px;
+    float: left;
+}
+.card1:hover{
+    box-shadow: 4px 6px 8px black;
+    transition: 0.4s;
+    margin-top: -2px;
+    cursor: pointer;
+}
+.card1 h2{
+    padding-top: 20px;
+    font-size: 20px;
+    color: orange;
+}
+.card .p{
+    padding-top: 20px; 
+}
+.card1 .p{
+    padding-top: 20px; 
+}
+.card2 .p{
+    padding-top: 20px; 
+}
+.card1 a{
+    color: white; padding: 5px; background-color: orange; font-size: 20px; text-decoration: none; border-top-left-radius: 8px; border-top-right-radius: 8px;
+        border-bottom-left-radius: 8px; border-bottom-right-radius: 8px;
+}.cardl .body form  button{
+    color: white; padding: 5px; background-color: orange; font-size: 20px; text-decoration: none; border-top-left-radius: 8px; border-top-right-radius: 8px;
+        border-bottom-left-radius: 8px; border-bottom-right-radius: 8px;
+}
+.card2{
+    margin-top: 50px; 
+    margin-left: 140px; 
+    background-color: white; 
+    box-shadow: 1px 2px 4px black; 
+    width: 240px;
+    height: 350px;
+    text-align: center; 
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px; 
+    border-bottom-right-radius: 10px;
+    float: left;
+}
+.card2:hover{
+    box-shadow: 4px 6px 8px black;
+    transition: 0.4s;
+    margin-top: -2px;
+    cursor: pointer;
+}
+.card2 h2{
+    padding-top: 20px;
+    font-size: 20px;
+    color: orange;
+}
+.card2 a{
+    color: white; padding: 5px; background-color: orange; font-size: 20px; text-decoration: none; border-top-left-radius: 8px; border-top-right-radius: 8px;
+        border-bottom-left-radius: 8px; border-bottom-right-radius: 8px;
+}
+.card img{
+    padding-top: 15px;
+}
+.card1 img{
+    padding-top: 15px;
+}
+.card2 img{
+    padding-top: 15px;
+}
+.footer{
+    width: 100%;
+    height: 300px;
+    background-color: orange;
+    color: white;
+    border-top: 5px solid black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.footer .f1 img{
+    margin-left: 20px;
+    float: left;
+}
+.footer .f2{
+    margin-left: 100px;
+    margin-top: -60px;
+}
+.footer .f2 .b1{
+    margin-top: 70px;
+    margin-left: 0px;
+    float: left;
+}
+.footer .f2 .b1 ul{
+    padding-top: 10px;
+}
+.footer .f2 .b2{
+    margin-top: 70px;
+    margin-left: 80px;
+    float: left;
+}
+.footer .f2 .b2 ul{
+    padding-top: 10px;
+}
+.footer .f2 .b3{
+    margin-top: 70px;
+    padding-left: 80px;
+    float: left;
+}
+.footer .f2 .b3 ul{
+    padding-top: 8px;
+}
+.footer .f2 .b4{
+    margin-top: 70px;
+    margin-left: 80px;
+    float: left;
+}
+.footer .f2 .b4 ul{
+    padding-top: 8px;
+}
+.footer .f{
+    margin-left: 790px;
+    margin-top: 30px;
+}
+
+.footer .f textarea{
+    margin-top: 10px;
+    padding-top: 2px;
+    padding-left: 2px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.footer .f a{
+    color: orange;
+    background-color: white;
+    padding: 8px;
+    padding-left: 13px;
+    padding-right: 13px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    cursor: pointer;
+}
+

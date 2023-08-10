@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIBURAN YUK</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css'>
+    <link rel="icon" href="lg.png">
+    <link rel="stylesheet" href="t1.css">
+    <style>
+        .back{
+            margin-top: 20px;
+            margin-left: 1100px;
+        }
+        .back a{
+            font-size: 16px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding: 10px;
+            padding-left: 10px;
+            padding-right: 20px;
+            border-top-left-radius: 7px;
+            border-top-right-radius: 7px;
+            border-bottom-right-radius: 7px;
+            border-bottom-left-radius: 7px;
+            background-color: orange;
+            color: white;
+            text-decoration: none;
+        }
+        .back a:hover{
+            opacity: 80%;
+        }
+        .containerLB{
+            margin-top: -20px;
+            margin-left: 20px;
+            float: bottom;
+        }
+        .baris{
+            margin-left: 15px;
+            float: left;
+        }
+        .baris img{
+            padding: 4px;
+        }
+        .baris img:hover{
+            background-color: orange;
+            cursor: pointer;
+        }
+        .kt{
+            width: 500px;
+            height: 280px;
+            margin-top: -400px;
+            margin-left: 740px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .kt h4{
+            padding-top: 35px;
+        }
+        .bintang{
+            margin-top: 20px;
+            margin-left: 0px;
+        }
+        .bintang i{
+            font-size: 30px;
+        }
+        .fi1 .fi-ss-star:hover{
+            cursor:default;
+            color: gold;
+        }
+        .harga{
+            margin-top: 40px;
+        }
+        .b{
+            margin-top: 20px;
+        }
+        .b a{
+            font-size: 30px;
+            color: white;
+            padding-left: 135px;
+            padding-right: 135px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            background-color: orange;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+            text-decoration: none;
+        }
+        .b a:hover{
+            opacity: 70%;
+        }
+        .peta iframe{
+            margin-top: 50px;
+            margin-left: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="back">
+        <a href="tiket_wisata.html"><i class="fi fi-ss-arrow-left"></i><b style="padding-left: 8px;">KEMBALI</b></a>
+    </div>
+    <div class="containerLB">
+        <img src="w3.png" alt="lb" width="700px" height="400px" id="target_gambar">
+    </div>
+    <div class="baris">
+        <img src="w1.jpg" alt="gambar1" width="165px" height="100px" onclick="ganti_gambar(this)">
+        <img src="w2.jpg" alt="gambar1" width="165px" height="100px" onclick="ganti_gambar(this)">
+        <img src="w4.jpg" alt="gambar1" width="165px" height="100px" onclick="ganti_gambar(this)">
+        <img src="w.jpg" alt="gambar1" width="165px" height="100px" onclick="ganti_gambar(this)">
+    </div>
+    <div class="kt">
+        <h1>Wakatobi</h1>
+        <h4>Pelabuan bajo adalah salah satu destinasi yang wajib kita   
+            kunjungi, wisata alam ini menyajikan keindahan alam yang  
+            hanya kita dapatkan di pelabuan bajo. Selain itu kita juga  
+            disuguhkan pemandangan indah khas pulau bajo, dan kita juga  
+            mendapatkan hiburan yang cukup menarik, mulai dari konser  
+            musik akustik di tepi pantai dan lainnya. Selain itu tempat  
+            ini juga cocok untuk kalian kunjungi bersama pasangan kalian.</h4>
+        <div class="bintang">
+            <i class="fi1 fi-ss-star" style="color: gold;"></i>
+            <i class="fi2 fi-ss-star" style="color: gold;"></i>
+            <i class="fi3 fi-ss-star" style="color: gold;"></i>
+            <i class="fi4 fi-ss-star" style="color: gold;"></i>
+            <i class="fi5 fi-ss-star"></i>
+            <p style="font-size: 15px; border-top: 3px solid orange; padding-top: 5px;">Peringkat ini diberikan dari <br> 1000 lebih pengunjung</p>
+        </div>
+        <div class="harga">
+            <h3>harga mulai dari</h3>
+            <h1 style="font-size: 50px; color: orange;">Rp. 6.200.000</h1>
+        </div>
+        <div class="b">
+            <a href="#" onclick="">Pesan sekarang</a>
+        </div>
+    </div>
+    <div class="peta">
+        <h2 style="padding-top: 300px; text-align: center; font-size: 35px; font-family: Verdana, Geneva, Tahoma, sans-serif;">Peta Wakatobi</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1016398.3188543898!2d123.23340771725007!3d-5.668829928341437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2da132c009d62f91%3A0x27e60d480afc1529!2sKabupaten%20Wakatobi!5e0!3m2!1sid!2sid!4v1652196865690!5m2!1sid!2sidhttps://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1016398.3188543898!2d123.23340771725007!3d-5.668829928341437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2da132c009d62f91%3A0x27e60d480afc1529!2sKabupaten%20Wakatobi!5e0!3m2!1sid!2sid!4v1652196865690!5m2!1sid!2sid" frameborder="0" width="1000px;" height="350px"></iframe>
+    </div>
+    <div class="footer" style="margin-top: 50px;">
+        <div class="f1">
+            <img src="logo.png" alt="logo" width="100px" height="100px">
+        </div>
+        <div class="f">
+            <form action="komen">
+                <label for="komen">Tulis Komentar</label><br>
+                <textarea name="komen" id="komen" cols="50" rows="3" placeholder="tulis komentar disini...!"></textarea>
+                <div class="a" style="margin-top: -30px; margin-left: 400px;">
+                    <a type="submit" onclick="alert('komen anda sudah dikirim')"><i class="fi fi-ss-paper-plane"></i></a>
+                </div>
+            </form>
+            </div>
+        <div class="f2">
+            <h2>Kerjasama Kami :</h2>
+            <div class="b1">
+                <b>Bidang Perbankan</b>
+            <ul>
+                <li>Bank Mandiri</li>
+                <li>Bank BCA</li>
+                <li>Bank BRI</li>
+                <li>Bank Permata</li>
+                <li>Bank BNI</li>
+                <li>Bank OCBC NISP</li>
+            </ul>
+            </div>
+            <div class="b2">
+                <b>
+                Bidang Wisata</b>
+            <ul>
+                <li>Pulau WEH</li>
+                <li>Danau Toba</li>
+                <li>Belitung</li>
+                <li>Raja Ampat</li>
+                <li>Bunaken</li>
+                <li>Gunung Bromo</li>
+            </ul>
+            <ul style="padding-left: 170px; margin-top: -128px;">
+                <li>Pantai Sanur</li>
+                <li>Wae Rebo</li>
+                <li>Pulau Komodo</li>
+                <li>Wakatobi</li>
+                <li>Banda Neira</li>
+                <li>Mentawai</li>
+            </ul>
+        </div>
+        <div class="b3">
+            <b>Bidang Transportasi</b>
+        <ul>
+            <li>PT Primajasa</li>
+            <li>PT Garuda Indonesia</li>
+            <li>PT Gunung Harta</li>
+            <li>PT Blue Bird</li>
+            <li>PT Kereta Api Indonesia</li>
+            <li>PT Samudera Perkapalan I</li>
+        </ul>
+        </div>
+        <div class="b4">
+            <b>Bidang Hotel</b>
+        <ul>
+            <li>Hotel Raffles</li>
+            <li>Hotel Melati</li>
+            <li>Hotel Fairmont</li>
+            <li>The Margo Hotel</li>
+            <li>Hotel Neo Malioboro</li>
+            <li>Emersia Malioboro Hotel</li>
+        </ul>
+        </div>
+    </div>
+    <div class="copyright" style="width: 100%; height: 35px; background-color: orange; margin-top: 225px; padding-top: 25px; text-align: center;">
+        <p> &copy; <b>Hafidz Dwi Rahmansyah</b></p>
+    </div>
+    <script>
+        const target_gambar = document.getElementById('target_gambar');
+
+        function ganti_gambar(gambar){
+            target_gambar.src = gambar.getAttribute('src');
+        }
+    </script>
+</body>
+</html>
+    

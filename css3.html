@@ -1,0 +1,61 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<title>Belajar Css3</title>
+ 	<style type="text/css">
+ 		.container{
+ 			width: 900px;
+ 			height: 120px;
+ 			margin: 10px auto;
+ 			border: 5px solid black;
+ 		}
+ 		.kotak{
+ 			width: 100px;
+ 			height: 100px;
+ 			background-color: lightblue;
+ 			line-height: 100px;
+ 			margin: 5px 0;
+ 			font-size: 10px;
+ 			transition: margin-left 3s, transform 500ms 2s, background-color 2s 3s; 
+ 		}
+ 		/*.kotak1{ transition: 3s ease; }
+ 		.kotak2{ transition: 3s ease-in; }
+ 		.kotak3{ transition: 3s ease-out; }
+ 		.kotak4{ transition: 3s ease-in-out; }
+ 		.kotak5{ transition: 3s linear; }
+ 		.kotak6{ transition: 3s cubic-bezier(1,-0.11, 0, 0.88); }*/
+ 		.container:hover .kotak{
+ 			/*transform: scale(1.5, 2);
+ 			transform: rotateX(180deg);
+ 			transform: rotateY(180deg);
+ 			transform: rotate(180deg) rotateX(180deg) rotateY(180deg);
+ 			transform: skew(30deg);
+ 			transform: translate(50px, 50px);
+ 			transform: rotate(180deg) scale(2);*/
+ 			transform: rotate(180deg);
+ 			margin-left: 800px;
+ 			background-color: blue;
+ 		}
+ 		p{
+ 			font-size: 20px;
+ 			text-align: center;
+ 		}
+ 	</style>
+ </head>
+ <body>
+ 	<div class="container">
+ 		<div class="kotak">ease</div>
+ 		<!-- <div class="kotak kotak2">ease-in</div>
+ 		<div class="kotak kotak3">ease-out</div>
+ 		<div class="kotak kotak4">ease-in-out</div>
+ 		<div class="kotak kotak5">linear</div>
+ 		<div class="kotak kotak6">cubic-bezier</div> -->
+ 	</div>
+ 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+ 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+ 		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+ 		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+ 		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+ 		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+ </body>
+ </html>

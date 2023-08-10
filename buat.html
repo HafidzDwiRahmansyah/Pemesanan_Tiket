@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIBURAN YUK</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css'>
+    <link rel="icon" href="lg.png">
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            background-image: url(gu.jpg);
+            background-size: cover;
+        }
+        .back{
+            margin-top: 50px;
+            margin-left: 20px;
+        }
+        .back a{
+            font-size: 16px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding: 10px;
+            padding-left: 10px;
+            padding-right: 20px;
+            border-top-left-radius: 7px;
+            border-top-right-radius: 7px;
+            border-bottom-right-radius: 7px;
+            border-bottom-left-radius: 7px;
+            background-color: orange;
+            color: white;
+            text-decoration: none;
+        }
+        .cardl{
+            margin-left: 420px;
+            margin-top: -10px;
+            width: 450px;
+            height: 500px;
+            background-color: rgba(255, 255, 255, 0.518);
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+            border-bottom-left-radius: 20px;
+            box-shadow: 1px 5px 6px black;
+        }
+        .cardl .header{
+            margin-left: 50px;
+            padding-top: 10px;
+            padding-left: 90px;
+        }
+        .cardl .header h2{
+            color: rgb(0, 0, 0);
+            font-size: 35px;
+            color: orange;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            text-shadow: 2px 2px white;
+        }
+        .cardl .body{
+            margin-left: 50px;
+        }
+        .cardl .body label{
+            font-size: 18px;
+            color: orange;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            text-shadow: 2px 2px white;
+        }
+        .cardl .body input{
+            width: 350px;
+            height: 30px;
+            padding-left: 7px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            border-top-left-radius: 7px;
+            border-top-right-radius: 7px;
+            border-bottom-right-radius: 7px;
+            border-bottom-left-radius: 7px;
+            background-color: rgba(255, 255, 255, 0.689);
+            border: none;
+        }
+        .cardl .foter{
+            margin-left: 90px;
+        }
+        .cardl .foter button{
+            border: none;
+            font-size: 16px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding: 10px;
+            padding-left: 10px;
+            padding-right: 20px;
+            width: 165px;
+            margin-left: -20px;
+            border-top-left-radius: 7px;
+            border-top-right-radius: 7px;
+            border-bottom-right-radius: 7px;
+            border-bottom-left-radius: 7px;
+            background-color: orange;
+            color: white;
+            text-decoration: none;
+        }
+        .cardl .foter button i{
+            padding-top: 2px;
+        }
+        #loading{
+            background: rgb(255, 200, 0) url(lod.gif) no-repeat center center;
+            background-size: 15%;
+            height: 100vh;
+            width: 100%;
+            position: fixed;
+            z-index: 100;
+        }
+    </style>
+</head>
+<body>
+    <div id="loading"></div>
+    <script>
+        var loading = document.getElementById('loading');
+
+        window.addEventListener("load", function(){
+            loading.style.display = "none";
+        })
+    </script>
+    <div class="back">
+        <a href="home.html"><i class="fi fi-ss-arrow-left"></i><b style="padding-left: 8px;">KEMBALI</b></a>
+    </div>
+        <div class="cardl">
+            <div class="header">
+                <img src="pay.gif" alt="" width="150px" height="100px">
+                <h2>Buat Akun</h2>
+            </div>
+            <div class="body">
+                <form action="akun.php" method="POST">
+                    <label for="name"><b>Username</b></label><br><br>
+                    <input type="text" name="username" id="username" placeholder="Username">
+                        <br><br>
+                    <label for="email"><b>Email</b></label><br><br>
+                    <input type="email" name="email" id="email" placeholder="email">
+                        <br><br>
+                    <label for="password"><b>Password</b></label><br><br>
+                    <input type="password" name="password" id="password" placeholder="password">
+                        <br><br>
+            </div>
+            <div class="foter">
+                    <button type="submit" ><i class="fi fi-ss-check"></i><b style="padding-left: 8px;">SIMPAN</b></button>
+                    <button type="reset"><i class="fi fi-ss-trash"></i><b style="padding-left: 8px;">HAPUS</b></button>
+                </form>
+            </div>
+            <!-- onclick="alert('Data Telah Disimpan')" -->
+        </div>
+</body>
+</html>
